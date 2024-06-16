@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perus Nettisivu</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Tervetuloa Perus Nettisivulle</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#home">Koti</a></li>
+            <li><a href="#about">Tietoa</a></li>
+            <li><a href="#contact">Yhteystiedot</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="home">
+            <h2>Kotisivu</h2>
+            <p>Tämä on kotisivun sisältöä.</p>
+        </section>
+        <section id="about">
+            <h2>Tietoa</h2>
+            <p>Tämä osio sisältää tietoa meistä.</p>
+        </section>
+        <section id="contact">
+            <h2>Yhteystiedot</h2>
+            <form id="contact-form">
+                <label for="name">Nimi:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Sähköposti:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Viesti:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Lähetä</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Perus Nettisivu</p>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>
